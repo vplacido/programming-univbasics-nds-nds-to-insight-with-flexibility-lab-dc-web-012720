@@ -103,7 +103,10 @@ def movies_with_directors_set(source)
     director = source[i]
     directorName = director[:name]
     directorMovies = director[:movies]
-    arr << movies_with_director_key()
+    arr << movies_with_director_key(directorName, directorMovies)
+    i += 1 
+  end 
+  arr
 end
 
 # ----------------    End of Your Code Region --------------------
