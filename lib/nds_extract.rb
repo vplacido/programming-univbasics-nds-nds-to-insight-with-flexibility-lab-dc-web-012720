@@ -76,7 +76,8 @@ def gross_per_studio(collection)
   while i < collection.length do 
     film = collection[i]
     if (!newHash[film][:studio])
-      newHash[film][:studio] = 
+      newHash[film][:studio] = film[:worldwide_gross]
+      
 end
 
 def movies_with_directors_set(source)
