@@ -50,6 +50,7 @@ def movies_with_director_key(name, movies_collection)
   # movie_with_director_name method
   data = []
   data[name] = movie_with_director_name(name, movies_collection)
+  data
 end
 
 
