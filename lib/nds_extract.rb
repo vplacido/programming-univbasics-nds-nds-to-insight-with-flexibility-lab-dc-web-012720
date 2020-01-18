@@ -100,7 +100,7 @@ def movies_with_directors_set(source)
   arr = []
   i = 0 
   while i < source.length do 
-    
+    director = source[]
 end
 
 # ----------------    End of Your Code Region --------------------
