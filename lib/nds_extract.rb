@@ -102,7 +102,7 @@ def movies_with_directors_set(source)
   while i < source.length do 
     director = source[i]
     directorName = director[:name]
-    
+    directorMovies = director[:movies]
 end
 
 # ----------------    End of Your Code Region --------------------
