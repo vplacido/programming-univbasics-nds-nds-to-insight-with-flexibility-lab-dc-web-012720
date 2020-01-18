@@ -74,6 +74,7 @@ def gross_per_studio(collection)
   newHash = {}
   i = 0 
   while i < collection.length do 
+    film = collection[i]
     
 end
 
